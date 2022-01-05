@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Football News (Grid)</title>
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <style>
+      .container { 
+          padding-top: 50px;         
+        width: 50%;
+        /* border: 2px solid red; */
+        height: 95vh;
+        margin: auto;
+      }
+      .grid-box {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 200px;
+        /* border: 5px solid green; */
+        grid-gap: 20px;
+        /* background-color: aqua; */
+        grid-auto-rows: 100px;
+      }
+      .left {
+        display: grid;
+        grid-template-columns: 1fr;
+        /* border: 2px solid gold; */
+        color: white;
+      }
+      .one {
+          width: fit-content;
+        background-color: blue;
+        color: white;
+        margin-bottom: 80px;
+      }
+      .two {
+        grid-template-rows: min-content;
+        padding-left: 10px;
+      }
+      img {
+        height: 100px;
+        width: 100px;
+      }
+      .item3 {
+        display: flex;
+      }
+      .item1{
+          background-image: url("https://thumbs.dreamstime.com/b/football-field-copy-space-44862469.jpg") ;
+          background-repeat: no-repeat;
+          background-size: cover;
+      }
+      .test{
+          height: 500px;
+          width: 500px;          
+      }
+      .three{        font-size: 10px;
+        padding: 10px;
+
+      }
+      .small-right{
+          padding-left: 5px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="grid-box">
+        <div class="grid-tems item1">
+          <div class="left">
+            <div class="one">TENIS</div>
+            <div class="two">England reach World Cup last 16 with</div>
+            <div class="two">hard-fought win over Argentina</div>
+            <div class="three"><span class="material-icons"> calendar_month </span>May 19, 2019 | 3 Comment</div>
+          </div>
+        </div>
+        <div class="grid-tems item1">
+            <div class="left">
+            <div class="one" style="background-color:  #E0DE00;">FOOTBALL</div>
+            <div class="two">We are playing history and Argentina at</div>
+            <div class="two">the World Cup, says Phil Neville</div>
+            <div class="three"><span class="material-icons"> calendar_month </span>May 19, 2019 | 3 Comment</div>
+          </div>
+        </div>
+        <div class="grid-tems item3">
+          <div class="small-left">
+            <img
+              src="https://media.wired.com/photos/5a3af5179b5b7950644810b9/master/w_2560%2Cc_limit/football-TA.jpg" alt=""
+            />
+          </div>
+          <div class="small-right">
+            <p>
+              There's a great history of the <br />
+              winner Sandia
+            </p>
+            <div>
+              <span class="material-icons"> calendar_month </span>
+              May 19, 2019 | 
+              <span class="material-icons"> calendar_month </span>
+                3 Comment
+            </div>
+          </div>
+        </div>
+        <div class="grid-tems item3"><div class="small-left">
+            <img
+              src="https://c.ndtvimg.com/2020-05/5mk12sl_football-generic-afp_625x300_06_May_20.jpg" alt=""
+            />
+          </div>
+          <div class="small-right">
+            <p>
+             Le Havre does have a growling <br />
+             fan club
+            </p>
+            <div>
+              <span class="material-icons"> calendar_month </span>
+              May 19, 2019 | 
+              <span class="material-icons"> calendar_month </span>
+                3 Comment
+            </div>
+          </div></div>
+        <div class="grid-tems item3"><div class="small-left">
+            <img
+              src="https://i.insider.com/5b7439f21982d822008b5136?width=1136&format=jpeg" alt=""
+            />
+          </div>
+          <div class="small-right">
+            <p>
+              It'll be a tough game and a <br />
+              physical game
+            </p>
+            <div>
+              <span class="material-icons"> calendar_month </span>
+              May 19, 2019 | 
+              <span class="material-icons"> calendar_month </span>
+                3 Comment
+            </div>
+          </div></div>
+        <div class="grid-tems item3"><div class="small-left">
+            <img
+              src="https://media.wired.com/photos/5a3af5179b5b7950644810b9/master/w_2560%2Cc_limit/football-TA.jpg" alt=""
+            />
+          </div>
+          <div class="small-right">
+            <p>
+              It will be hard to break them <br />
+              down
+            </p>
+            <div>
+              <span class="material-icons"> calendar_month </span>
+              May 19, 2019 | 
+              <span class="material-icons"> calendar_month </span>
+                3 Comment
+            </div>
+          </div></div>
+        <div class="grid-tems item3"><div class="small-left">
+            <img
+              src="https://cdn.vox-cdn.com/thumbor/1VuJroKCYVBJCATRhMYwDW75ngg=/1400x1400/filters:format(jpeg)/cdn.vox-cdn.com/uploads/chorus_asset/file/22736163/1317634572.jpg" alt=""
+            />
+          </div>
+          <div class="small-right">
+            <p>
+              If we don't score we can't get <br />
+              frustrated
+            </p>
+            <div>
+              <span class="material-icons"> calendar_month </span>
+              May 19, 2019 | 
+              <span class="material-icons"> calendar_month </span>
+                3 Comment
+            </div>
+          </div></div>
+        <div class="grid-tems item3"><div class="small-left">
+            <img
+              src="https://biotechnodata.com/wp-content/uploads/2021/07/4.jpg" alt=""
+            />
+          </div>
+          <div class="small-right">
+            <p>
+              We've never seen them as <br />
+              organised
+            </p>
+            <div>
+              <span class="material-icons"> calendar_month </span>
+              May 19, 2019 | 
+              <span class="material-icons"> calendar_month </span>
+                3 Comment
+            </div>
+          </div></div>
+      </div>
+    </div>
+    <div class="test">
+        
+    </div>
+  </body>
+</html>
